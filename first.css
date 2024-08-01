@@ -1,0 +1,125 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+    gap: 50px;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+   
+  
+}
+.menu-icon{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+   
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+   
+   background-image: url(./image/menu-icon-11.jpg);
+   
+}
+.menu-icon:hover{
+
+    background-image: url(./image/menu_animations.gif);
+   
+}
+nav{
+   
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    gap: 30px;
+    color: white;
+
+}
+.logo img{
+    height:50px;
+    width: 50px;
+    margin: 30px 0px 0px 50px;
+    background-size: cover;
+}
+main{
+   display: flex;
+   
+}
+   .heading{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+.content{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    
+}
+.btn{
+   
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+    margin-top: 800px;
+    width: fit-content;
+}
+.main-card{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 250px 250px;
+
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.card{
+    float: left;
+
+    border-radius: 20px;
+    
+    width: fit-content;
+    color: white;
+
+}
+.main-heading{
+    margin: 100px 40px 0px 20px;
+}
+.main-heading div{
+    margin-top: 40px;
+
+}
+@media (min-width: 470px ) and (max-width: 800px ){
+
+    main{
+        display: inline;
+        align-items: center;
+        
+        
+
+    }
+    .main-heading{
+        margin-bottom: 40px;
+        margin-left: 40px;
+        align-items: center;
+    }
+    .main-card{
+        margin-left: 80px;
+   
+    }
+}
+@media (min-width: 470px ) and (max-width: 800px ){
+
+}
